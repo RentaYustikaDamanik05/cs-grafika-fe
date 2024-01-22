@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@nx/jest": "^17.2.8",
     "@swc/helpers": "~0.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
