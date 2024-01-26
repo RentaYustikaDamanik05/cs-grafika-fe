@@ -1,13 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { RouterProvider } from 'react-router-dom';
+import { appRouter } from './app-router';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="cs-grafika-fe" />
-    </div>
+    <RouterProvider router={appRouter}  />
   );
 }
 
