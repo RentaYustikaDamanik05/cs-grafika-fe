@@ -13,7 +13,7 @@ export const appRouter = createBrowserRouter(
       children: [
         {
           path: '/dashboard',
-          element: 'DASHBOARD'
+          element: 'INI STAGING'
         },
         {
           path: '/menu-1',
