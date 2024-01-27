@@ -19,7 +19,7 @@ export const AppLayout: React.FC = () => {
   const openedMenu = SIDEBAR_ITEM.find((item) => item.key.toLowerCase() === pathname?.split('/')[1]?.toLowerCase());
   
   const internalOnClickLogo = () => {
-    navigate('/');
+    navigate('/dashboard');
   };
 
   return (
